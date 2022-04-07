@@ -1,5 +1,5 @@
-<%@ taglib prefix="c" uri="http://www.springframework.org/tags" %>
-<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>--%>
+<%--<%@ taglib prefix="c" uri="http://www.springframework.org/tags" %>--%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%--<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>--%>
 <%--
   Created by IntelliJ IDEA.
@@ -17,10 +17,10 @@
 <body>
 <h1>Product List:</h1>
 <ul>
-<%--    <c:forEach var="product" items="${products}">--%>
-<%--        <li>${product.toString()}</li>--%>
-<%--        <br>--%>
-<%--    </c:forEach>--%>
+    <c:forEach var="product" items="${products}">
+        <li>${product.toString()}</li>
+        <br>
+    </c:forEach>
 </ul>
 <br>
 <c:url var="addProductUrl" value="/products/add"/>
