@@ -1,0 +1,29 @@
+spring:
+  mvc:
+    view:
+      prefix: '/WEB-INF/view/'
+      suffix: '.jsp'
+
+test.properties: 'test'
+
+shop.properties.products:
+  - product:
+    id: 0
+    title: 'apple'
+    price: 540.0
+  - product:
+    id: 1
+    title: 'tomato'
+    price: 510.0
+  - product:
+    id: 2
+    title: 'potatoes'
+    price: 520.0
+  - product:
+    id: 3
+    title: 'orange'
+    price: 525.0
+  - product:
+    id: 4
+    title: 'beet'
+    price: 764.0
